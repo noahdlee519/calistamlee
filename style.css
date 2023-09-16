@@ -1,3 +1,7 @@
+html {
+    background:#393e85;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -7,7 +11,6 @@ html, body {
 body {
     font-family: 'Crimson Text','Georgia';
     color: #eeeeee;
-    background: rgb(2,0,36);
     background: linear-gradient(270deg, rgb(175, 178, 179) 100%, rgb(98, 102, 103) 100%);
     padding: 0;
     margin-left: 0;
@@ -488,6 +491,11 @@ span.close {
         font-size: 1em;
         display: flex;
         left: 12%;
+        overflow: hidden;
+    }
+
+    .contacts {
+        position: fixed;
         overflow: hidden;
     }
   }
