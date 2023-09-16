@@ -286,7 +286,7 @@ span.close {
     left: 0;
     right: 0;
     padding-bottom: 22px;
-    padding-top: 30px;
+    padding-top: 0.8em;
     padding-left: 4.4%;
     margin-left: -.4%;
     color: #eeeeee;
@@ -460,10 +460,13 @@ span.close {
         top: 26%;
         margin-bottom: 1em;
         text-align: center;
-        text-align: center;
         display: block;
         margin-left: 2em;
         margin-right: 2em;
+    }
+
+    .modal {
+        z-index: 9;
     }
 
     /* about */
@@ -494,5 +497,15 @@ span.close {
     .contacts {
         position: fixed;
         overflow: hidden;
+        top: 12.1em;
     }
+
+    .content-wrapper::before {
+        height: 2.5em;
+    }
+
+    .footer {
+        z-index: 8;
+    }
+
   }
