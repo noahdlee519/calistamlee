@@ -432,11 +432,12 @@ span.close {
 
     .post {
         top: 18%;
-        font-size: 1.4em;
+        font-size: 1em;
         text-align: center;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        text-align-last: center;
 
     }
     
