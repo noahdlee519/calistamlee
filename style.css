@@ -340,13 +340,13 @@ span.close {
 
 /* selectedstories shenanigans */
 
-@media only screen and (min-width: 0em) and (max-width: 64em){
+@media only screen and (min-width: 0em) and (max-width: 66.3em){
     #post1 {
         margin-top: 8em;
     }
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 66.3em) {
     #post1, #post2 {
         margin-top: 8em;
     }
@@ -375,7 +375,7 @@ span.close {
 
 
   /* mobile only */
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 510px) {
 
     #post1 {
         margin-top: 10em;
@@ -430,6 +430,16 @@ span.close {
         width: 100%;
     }
 
+    .selectedstoriessub {
+        text-align: center;
+        position: fixed;
+        top: 18%;
+        font-size: 1em;
+        display: flex;
+        left: 12%;
+        overflow: hidden;
+    }
+
     .post {
         top: 18%;
         font-size: 1em;
@@ -437,8 +447,10 @@ span.close {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        text-align-last: center;
+    }
 
+    #post1 {
+        margin-top: 15em;
     }
     
     .post img {
