@@ -1,8 +1,14 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font-family: 'Crimson Text';
+    font-family: 'Crimson Text','Georgia';
     color: #eeeeee;
     background: rgb(2,0,36);
-    background: linear-gradient(270deg, rgb(175, 178, 179) 0%, rgb(98, 102, 103) 100%);
+    background: linear-gradient(270deg, rgb(175, 178, 179) 100%, rgb(98, 102, 103) 100%);
     padding: 0;
     margin-left: 0;
     margin-right: 0;
@@ -131,7 +137,7 @@ body::-webkit-scrollbar {
 .selectedstoriessub {
     text-align: left;
     position: fixed;
-    top: 22%;
+    top: 8.2em;
     font-size: 1.2em;
     display: flex;
     left: 12%;
@@ -238,7 +244,7 @@ span.close {
 .abouttext {
     text-align: left;
     position: fixed;
-    top: 22%;
+    top: 8.2em;
     font-size: 1.2em;
     display: flex;
     left: 12%;
@@ -247,7 +253,7 @@ span.close {
 
 .contacts {
     position: absolute;
-    top: 40%;
+    top: 13em;
     list-style: none;
     display: inline;
     color:#eeeeee;
@@ -300,7 +306,7 @@ span.close {
         top: 0;
         left: 0;
         right: 0;
-        height: 5em;  /* adjust this value depending on how much of the top you want blurred */
+        height: 4.2em;  /* adjust this value depending on how much of the top you want blurred */
         background: linear-gradient(270deg, rgb(175, 178, 179) 0.1, rgb(98, 102, 103) 0.1);
         backdrop-filter: blur(.5em);  /* adjust this value to increase or decrease blur intensity */
         pointer-events: none;  /* ensures the pseudo-element doesn't interfere with any clicks or interactions */
@@ -452,7 +458,10 @@ span.close {
         top: 8%;
         font-size: 2em;
         display: flex;
-        left: 12%;
+        margin-left: 50%;
+        margin-right: 50%;
+        left: -10%;
+        width: 100%;
     }
 
     .abouttext {
